@@ -23,7 +23,7 @@ body{
     
 }
 .header img {
-    padding-left: 130px;
+    padding-left: 200px;
    
 }
 .text{
@@ -50,7 +50,7 @@ a{
   width: 80px;
  border-radius: 5px 5px;
  background: #3A68B8;
-
+margin-right: 230px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -106,24 +106,25 @@ font-weight: 600;
     width: 120px;
     color: #fff;
    }
-.logo-ipsum{
+.swiper{
     display: flex;
     justify-content: center;
     padding-left: 80px;
     padding-top: 40px;
     padding-right: 80px;
 }
-.ipsum{
-    padding-right: 80px;
+.swiper-slide{
+    padding-left: 40px;
+    padding-right: 40px;
     }
     /* apply */
-    .apply-right-side{
-      justify-content: center;
+    .section-apply{
       display: flex;
-   flex-direction: column;
-  align-items: center;
+      justify-content: center;
+   /* flex-direction: column;
+  align-items: center; */
    
-    padding-left: 400px;
+    /* padding-left: 400px; */
     }
         .apply-right-side h1{
             font-size: 23px;
@@ -137,6 +138,8 @@ font-weight: 600;
        color:#ffffff84;
        padding-bottom: 20px;
     }
+     
+    
     .section-apply{
       
     }
@@ -155,33 +158,37 @@ font-weight: 600;
         height:35px;
         width: 100px;
         color: #fff;
-       
+       margin-right: 190px;
     }
     /* card */
     /* .swiper{
        display: flex;
      justify-content: space-between;
     } */
-    .swiper-slide{
+    .section-cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card{
         border-radius: 8px;
         padding: 20px;
-        width: 50px;
-        height: 250px;
+        width: 240px;
+        height: 220px;
         background: #424d5321; 
         
     }
-    .swiper-slide h1{
-        font-size: 20px;
+    .card h1{
+        font-size: 18px;
         color:#ffffffae;
-        padding-left: 50px;
+        padding-left: 30px;
     }
-    .swiper-slide p{
-        font-size: 15px;
+    .card p{
+        font-size: 13px;
         color:#ffffff84;
-        padding-left: 50px;
+        padding-left: 30px;
     }
-    .swiper-slide img{
-        padding-left: 100px;
+    .card img{
+        padding-left: 90px;
     }
 
     /* clients */
